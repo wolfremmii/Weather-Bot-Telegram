@@ -20,7 +20,7 @@ pip install -r requirements.txt
 BOT_TOKEN = 'Your Telegram Bot Token'
 OWM_API_KEY = 'Your OpenWeather API Key'
 ```
-BOT_TOKEN: Get your bot API token from BotFather, it's simple.
+BOT_TOKEN: Get your bot API token from [BotFather](https://core.telegram.org/bots#botfather), it's simple.
 
 OWM_API_KEY: 
 1. Register on this website - https://openweathermap.org/
