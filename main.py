@@ -23,7 +23,7 @@ user_lang = {}
 
 # Getting weather info / Получаем информацию о погоде с сайта
 def get_weather(city: str, lang: str) -> str:
-    city = city.strip().title()  # Remove spaces and capitalize letters / Удаляем лишние пробелы и делаем заглавные буквы.
+    city = city.strip().title()  # Remove spaces and capitalize letters / Удаляем лишние пробелы и делаем заглавные буквы
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={OWM_API_KEY}&units=metric&lang={lang}"
     
     try:
